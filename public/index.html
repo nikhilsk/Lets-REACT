@@ -29,10 +29,11 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root">
+    </div>
 
+    <div>
       <div id="counter">Counter value is: 0</div>
       <button>Increment</button>
-
     </div>
     <!--
       This HTML file is a template.
@@ -53,7 +54,7 @@
 
         buttonElement.addEventListener('click', () => {
           count++;
-          // counterElement.textContent = `Counter value is: ${count}`;
+          counterElement.textContent = `Counter value is: ${count}`;
         });
       </script>
   </body>

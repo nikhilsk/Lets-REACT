@@ -6,6 +6,6 @@ Welcome to the React Workshop! 🚀 This hands-on session will guide you through
 -  Create teams of 2-3
 -  Fork and clone the repo
     - Click on fork on top right
-    - `git clone <user_name> git@github.com:nikhilsk/react-workshop.git`
+    - `git clone git@github.com:<user_name>/react-workshop.git`
     
 

@@ -5,6 +5,7 @@ import Button from "./Button";
 import { useHistory } from "react-router-dom";
 
 // $ npm install animate.css --save
+// npm install bulma
 import 'animate.css';
 
 

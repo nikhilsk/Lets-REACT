@@ -7,5 +7,8 @@ Welcome to the React Workshop! 🚀 This hands-on session will guide you through
 -  Fork and clone the repo
     - Click on fork on top right
     - `git clone git@github.com:<user_name>/react-workshop.git`
-    
 
+## Setup
+1. Clone the repository.
+2. Run `npm install` to install dependencies.
+3. Start the project with `npm start`.

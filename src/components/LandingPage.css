@@ -1,0 +1,18 @@
+.landing-container {
+    background-color: #f8d7da; /* Soft warm background */
+    color: #333;
+    text-align: center;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    color: #d63384;
+}
+
+p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+}

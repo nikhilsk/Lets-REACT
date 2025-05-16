@@ -1,0 +1,11 @@
+.menu-container {
+    text-align: center;
+    padding: 40px;
+    background-color: #f8d7da;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

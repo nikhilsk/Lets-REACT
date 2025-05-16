@@ -10,6 +10,10 @@ function App() {
                 {/* <Route exact path="/" component={LandingPage} /> */}
                 <Route exact path="/" component={Show} />
                 <Route path="/menu" component={MenuPage} />
+                {/* YOUR TASK  */}
+                {/* <Route path="/order" component={OrderPage} />
+                <Route path="/bill" component={BillPage} />
+                <Route path="/reviews" component={ReviewPage} /> */}
             </Switch>
         </Router>
     );

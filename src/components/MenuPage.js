@@ -2,6 +2,7 @@ import React from "react";
 import "./Menu.css";
 import Card from "./Card";
 import Button from "./Button";
+import Cart from "./Cart";
 import { useHistory } from "react-router-dom";
 
 // $ npm install animate.css --save
@@ -25,6 +26,10 @@ function MenuPage() {
                     title="Juicy Burger"
                     description="A mouthwatering cheeseburger with crispy fries."
                 />
+            </div>
+            <div>
+                <h1>📜 Our Menu</h1>
+                <Cart /> {/* Displays the Cart */}
             </div>
             <div>
                 <Button text="Go to Homepage" onClick={() => history.push("/")} />

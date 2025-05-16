@@ -12,3 +12,12 @@ Welcome to the React Workshop! 🚀 This hands-on session will guide you through
 1. Clone the repository.
 2. Run `npm install` to install dependencies.
 3. Start the project with `npm start`.
+
+### If Npm fails 
+1. `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash`
+2. `vi ~/.bashrc`
+3. ```bash
+    export NVM_DIR="$HOME/.nvm"
+    [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+    ```
+4. `source ~/.bashrc`

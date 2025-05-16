@@ -1,9 +1,10 @@
 import React from "react";
 import "./LandingPage.css";
 import Button from "./Button"; // Import Button Component
-import { useNavigate } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 
 function LandingPage() {
+    const history = useHistory(); 
     return (
         <div className="landing-container">
             <h1>🍽️ Welcome to Gourmet Haven</h1>
@@ -15,8 +16,7 @@ function LandingPage() {
             {/* Place Order Button */}
             <Button text="Place Order" onClick={() => alert("Order Confirmed!")} />
             
-            const navigate = useNavigate
-            <Button text="Go to Menu" onClick={() => navigate("/menu")} />
+            <Button text="Go to Menu" onClick={() => history.push("/menu")} />
         </div>
     );
 }
